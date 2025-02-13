@@ -1,0 +1,132 @@
+.troskovi-container {
+    background-color: #f4f8fb;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+main {
+    text-align: left;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+h1, h3 {
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+form input, form select {
+    display: block;
+    width: calc(100% - 20px);
+    max-width: 450px;
+    margin: 10px auto;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+form button {
+    background-color: #1e918f;
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+form button:hover {
+    background-color: #1e918f;
+}
+
+.centered-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #20b2aa;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.centered-button:hover {
+    background-color: #1e918f;
+    transform: scale(1.05);
+}
+
+
+table {
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-size: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+thead th {
+    background-color:#1e918f;
+    color: #ffffff;
+    padding: 12px 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+    color: #555555;
+}
+
+
+tbody button {
+    background-color: #1e918f;
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+tbody button:hover {
+    background-color: #1e918f;
+    transform: scale(1.05);
+}
+
+
+tbody button:last-child {
+    background-color: #e74c3c;
+}
+
+tbody button:last-child:hover {
+    background-color: #c0392b;
+}
